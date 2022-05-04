@@ -33,7 +33,7 @@ tab - auto completar
 mkdir - criar diretório
 echo - mostrar devolta na tela do terminal uma frase/texto
 > - redirecionador de fluxo
-rmdir - ewmover o diretório com todos os arquivos que estão dentro
+rmdir - remover o diretório com todos os arquivos que estão dentro
 ====================================================================
 
 *** SHA1 - Secure Hash Algorithm (Algoritmo de Hash Seguro) ***
