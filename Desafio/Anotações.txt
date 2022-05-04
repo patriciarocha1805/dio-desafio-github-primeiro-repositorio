@@ -1,0 +1,77 @@
+******** ANOTAÇÕES ********
+
+======== Benefícios ========
+- Controle de Versão
+- Armazenamento em nuvem
+- Trabalho em equipe
+- Melhorar seu código
+- Reconhecimento
+
+======== CLI - Comando Line Interface ========
+- Mudar de pastas
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+======== Windows ========
+- cd 
+- dir
+- mkdir
+- del/rmdir
+
+======== Linux ========
+- cd
+- ls
+- mkdir
+- rm - rf
+
+===================================================================
+dir - lista de diretórios
+cd - change directory (navegar entre pastas)
+cls - limpar o terminal
+tab - auto completar
+mkdir - criar diretório
+echo - mostrar devolta na tela do terminal uma frase/texto
+> - redirecionador de fluxo
+rmdir - ewmover o diretório com todos os arquivos que estão dentro
+====================================================================
+
+*** SHA1 - Secure Hash Algorithm (Algoritmo de Hash Seguro) ***
+- É um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional EUA).
+
+
+==================== OBJETOS FUNDAMENTAIS ==========================
+*** Blobs: echo 'conteudo' | git hash - object  --stdin
+         echo -e "conteudo" | openssl sha1
+
+- Esse objeto contém metadados nele.
+- Tem o tipo do objeto, amanho da string ou do arquivo, uma barra invertida com um zero /0, e o conteúdo em si.
+         echo -e 'blob' 9/0conteudo' | openssl sha1
+
+*** Tree: armazenam blobs
+- Também contém metadados, barra invertida com zero /0, aponta para um blob, guarda o nome do arquivo.
+
+*** Commit: vai juntar tudo, que vai dar sentido para as alterações.
+- O sha1 desse commit é o hash de toda essa informação.
+
+
+================ CHAVES SSH E TOKENS ===================
+*** Chave SSH: é uma forma de estabelecer uma conexão segura.
+- É incriptada entre duas máquinas.
+  - git init
+  - git add
+  - git commit
+  - git config -- global user.email colocaremail
+                                    - username
+
+========================================================
+*** Git Init: além de criar a pasta .git, inicializa um conceito do git chamado "repositório".
+- Cria um repositório dentro do diretório.
+
+** Tracked e Untracked: unmodified, modified e staged.
+- git restore
+- git confign -- list
+- git pull origin master
+ 
+
+
